@@ -23,6 +23,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(longest-common-subsequence
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        lcs.cpp
+        lcs.h
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET longest-common-subsequence APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
